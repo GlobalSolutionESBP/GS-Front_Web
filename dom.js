@@ -24,6 +24,9 @@ const eventModal = function(event){
 
     }
 }
+function showPopup(){
+    openClick();
+}
 
 buttonEnviar.addEventListener('click',function(event){
     event.preventDefault();
@@ -39,10 +42,9 @@ buttonEnviar.addEventListener('click',function(event){
         campoEmail.insertAdjacentElement('afterend', pMensagem);
         pMensagem.setAttribute("class", 'erro');
         return False
-    }
-    
-    else{
-        buttonEnviar.addEventListener("click", openClick);
+
+    }else{
+        showPopup();
 
         popup.addEventListener('click', eventModal); 
     }
