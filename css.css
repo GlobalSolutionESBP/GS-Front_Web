@@ -70,14 +70,14 @@ section {
 
 .video {
     display: flex;
-    background-color: rgba(13, 28, 45, 0.793);
+    background-color:#1a488e7c;
     color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 50%;
-    height: 270px;
-    margin-top: 6%;
+    height: 390px;
+    margin-top: 3%;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -106,10 +106,10 @@ section {
 
 #problemas{
     display: flex;
-    background-color: rgba(13, 28, 45, 0.793);
+    background-color: #1a488e7c;
     color: white;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     align-items: center;
     width: 50%;
     height: 270px;
@@ -117,45 +117,55 @@ section {
     margin-left: 25%;
     margin-right: 25%;
 }
+#problemas >text{
+    width: 90%;
+}
 #problemas1{
     display: flex;
-    background-color: rgba(13, 28, 45, 0.793);
+    background-color:#1a488e7c;
     color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 50%;
-    height: 270px;
+    height: 360px;
     margin-top: 6%;
     margin-left: 25%;
     margin-right: 25%;
 }
 #demonstracao{
     display: flex;
-    background-color: rgba(13, 28, 45, 0.793);
+    background-color:#1a488e7c;
     color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 50%;
-    height: 270px;
+    height: 400px;
     margin-top: 6%;
     margin-left: 25%;
     margin-right: 25%;
+}
+#botão{
+    align-items: center;
+    justify-self: center;
+    margin-left: 25%;
 }
 #demonstracao1{
     display: flex;
-    background-color: rgba(13, 28, 45, 0.793);
+    background-color:#1a488e7c;
     color: white;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 50%;
-    height: 270px;
+    height: 400px;
     margin-top: 6%;
     margin-left: 25%;
     margin-right: 25%;
+
 }
+
 #contato{
     display: flex;
     background-color: #1a488e7c;
@@ -259,7 +269,10 @@ td{
     padding-right: 15px;
     justify-content: center;
 }
-
+td >foto{
+    width: 20px;
+    height: 20px;
+}
 footer{
     font-family:'Courier New', Courier, monospace;
     position: relative;
